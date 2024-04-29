@@ -1,5 +1,6 @@
 import Button from "./Button"
-export default function Row({transactions,setTransactions}){
+
+ function Row({transactions,setTransactions}){
 
     const rows =transactions.map((transaction,index)=>{
         
@@ -25,3 +26,5 @@ export default function Row({transactions,setTransactions}){
        </>
     )
 }
+
+export default Row
