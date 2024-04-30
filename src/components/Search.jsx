@@ -1,4 +1,4 @@
- function Search({transactions, setTransactions, arr}){
+ function Search({transactions, setTransactions}){
 
     function handleChange(event){
         const cont = event.target.value
@@ -25,6 +25,7 @@
     }
 
 }
+
 
 export default Search
  
