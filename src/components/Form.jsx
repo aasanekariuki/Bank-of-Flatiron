@@ -1,7 +1,6 @@
 import { useState } from "react"
 
 function Form({transactions,setTransactions}){
-   const today = new Date();
    const [formData, setFormData] = useState({
         date:"",
         description:"",
