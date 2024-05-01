@@ -1,4 +1,4 @@
- function Search({transactions, setTransactions, handleChange}){
+ function Search({transactions, setTransactions}){
 
     function handleChange(event){
         const cont = event.target.value
