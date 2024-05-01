@@ -3,6 +3,7 @@ import Search from './components/Search';
 import Table from './components/Table';
 import './App.css';
 import Form from './components/Form';
+import Header from './components/Header';
 
 function App() {
   const arr =[
@@ -54,6 +55,7 @@ const [transactions,setTransactions] = useState(arr)
 
   return (
     <div className='container'>
+      <Header />
       <Search transactions={transactions} setTransactions={setTransactions} arr={arr}/>
       <Form transactions={transactions} setTransactions={setTransactions}/>  
       <Table transactions={transactions} setTransactions={setTransactions}/>
